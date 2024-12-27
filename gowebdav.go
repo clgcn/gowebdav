@@ -16,7 +16,7 @@ import (
 
 var (
 	flagRootDir    = flag.String("dir", "", "webdav root dir")
-	flagHttpAddr   = flag.String("port", "5005", "http or https port")
+	flagHttpAddr   = flag.String("http", "0.0.0.0:6086", "http address to listen on")
 	flagHttpsMode  = flag.Bool("https-mode", false, "use https mode")
 	flagCertFile   = flag.String("https-cert-file", "cert.pem", "https cert file")
 	flagKeyFile    = flag.String("https-key-file", "key.pem", "https key file")
