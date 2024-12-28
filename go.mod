@@ -1,4 +1,4 @@
-module github.com/sbwml/gowebdav
+module github.com/clgcn/gowebdav
 
 go 1.19
 
